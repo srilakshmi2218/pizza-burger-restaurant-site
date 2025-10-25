@@ -1,0 +1,411 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color:  black;
+    color: white;
+    padding: 10px 0;
+  }
+.logocolor{
+  color: wheat;
+}
+  
+  header nav {
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: darkgrey;
+    border-radius: 10px;
+  }
+  /* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*home page*/
+/* Container for both content and image */
+.home {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left side content styling */
+.hcontent {
+  flex: 1;
+  background-color: burlywood; /* Dark Slate Gray */
+  color:medium teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hcontent h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hcontent p {
+  font-size: 1.5rem;
+  max-width: 500px;
+  
+}
+
+/* Right side image styling */
+.image-home {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f4f4f; /* Dark Slate Gray background */
+  padding: 20px;
+}
+
+.himage-background {
+  background-color: white;  /* White background for the circular image */
+  padding: 10px;  /* Padding to create space between the image and the background */
+  border-radius: 50%; /* Circular container for the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.himage {
+  width: 350px;  /* Adjust size of the circular image */
+  height: 350px; /* Same width and height for the circle */
+  border-radius: 60%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits inside the circle */
+}
+
+  
+  /* Page Layout */
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+   
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+   
+/*about*/
+
+.acontainer {
+  text-align: center;
+  background-color: white;
+
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  padding-top: 50px;
+}
+
+.content h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.content p {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.6;
+}
+/* General page styles */
+
+
+/* Menu container to hold all items */
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-gap: 30px;
+  
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  padding-left: 30px;
+  padding-top: 90px;
+}
+
+/*menuscontent font*/
+.menu{
+padding-top: 10px;
+
+}
+/* Each menu item styling */
+.menu-item {
+  background-color: #d3c4bf;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 15px;
+}
+
+.menu-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.menu-item h3 {
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #e91e63;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 1em;
+  color: #555;
+  margin-top: 10px;
+}
+
+
+/* Main container for the order details */
+.order-container {
+  max-width: 1000px;
+  font-family: Arial, sans-serif;
+  margin: 50px auto;
+  background-color: #ffffff; /* White background for the container */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5em;
+}
+
+/* Container for both form and image sections */
+.order-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Left side: Form section */
+.order-form {
+  width: 48%;
+}
+
+h2 {
+  color: #3498db;
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 1.1em;
+  color: #2980b9;
+  display: block;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1em;
+  background-color: #ecf0f1; /* Light gray background for inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+input[readonly] {
+  background-color: #f9f9f9; /* Light color for readonly fields */
+}
+
+.item {
+  background-color: #ecf0f1; /* Light gray background for each item */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.total {
+  background-color: #d5f5e3; /* Light green background for total */
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  font-size: 1.3em;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker shade when hovered */
+}
+
+/* Right side: Image Section */
+.order-image {
+  width: 48%;
+}
+
+.order-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Footer Section: Black background with white text */
+.lfooter {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.lfooter h2 {
+  color: #ffffff;
+  font-size: 1.8em;
+}
+
+.lfooter p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.lfooter p strong {
+  color: #3498db; /* Highlight location and contact in blue */
+}
+
+/* Location Section */
+.location-info {
+  margin-top: 20px;
+}
+
+.location-image img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  font-size: 1.1em;
+}
+
+/* Reviews Section */
+.reviews {
+  margin-top: 30px;
+}
+
+.reviews p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+/* Star Rating */
+.star-rating {
+  font-size: 1.5em;
+  color: #f39c12; /* Gold color for stars */
+}
+
+.star {
+  margin-right: 5px;
+}
+
+
+
+  
+  
+
+  
+  
+  
